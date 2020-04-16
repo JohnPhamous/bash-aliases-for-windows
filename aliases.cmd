@@ -5,7 +5,7 @@ cd=cd $* ^& dir /a /x $*
 open=explorer.exe $*
 cp=copy $*
 mv=move $*
-aliases=/macros
+aliases=DOSKEY /macros
 
 c=code $*
 v=vim $*
