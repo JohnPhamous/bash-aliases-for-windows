@@ -1,7 +1,7 @@
 :: General
 ls=dir /a /x $*
 ll=dir /a /x $*
-cd=cd $* ^& dir /a /x $*
+cd=cd $* ^& dir /a /x
 open=explorer.exe $*
 cp=copy $*
 mv=move $*
