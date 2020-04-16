@@ -10,10 +10,10 @@ aliases=DOSKEY /macros
 c=code $*
 v=vim $*
 
-..    = cd ..\ /a /x $*
-...   = cd ..\..\ /a /x $*
-....  = cd ..\..\..\ /a /x $*
-..... = cd ..\..\..\..\ /a /x $*
+..    = cd ..\ ^& dir /a /x $*
+...   = cd ..\..\ ^& dir /a /x $*
+....  = cd ..\..\..\ ^& dir /a /x $*
+..... = cd ..\..\..\..\ ^& dir /a /x $*
 
 :: Git
 g=git $*
